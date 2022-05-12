@@ -1,0 +1,16 @@
+.Waiter{
+    background-color:#FFFFD1 ;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+.nombreApp{
+ 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4vW;
+    font-weight: bold;
+    color: #326A3D;
+    padding: 5% ;
+
+}

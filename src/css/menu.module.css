@@ -1,0 +1,59 @@
+.menuContainer{
+    margin-left: 5%;
+    padding:2% ;
+    border-radius: 9px;
+    border: 4px solid #326A3D;
+    width: 50vw;
+    height: 70vh;
+    justify-content: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.33);
+    
+}
+.buttonsMenuContainer{
+    display: flex;
+    gap: 3%;
+    padding: 2%;
+
+}
+
+.buttonsMenu{
+    width: 25vw;
+    height: 7vh;
+    border: none;
+    background: #FB6240;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    color: white;
+    font-family:'JetBrains Mono', monospace; 
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.productContainer{
+    margin-top: 7%;
+    padding-top: 11%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    justify-content: center;
+    overflow: scroll;
+    height: 48vh;
+    padding-left: 4%;
+}
+.buttonsProducts{
+    width: 491px;
+    height: 48px;
+    left: 106px;
+    top: 435px;
+    background: rgba(50, 106, 61, 0.8);
+    border: 2px solid #326A3D;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color:white;
+    font-family:'JetBrains Mono', monospace; 
+    font-weight: bold;
+    font-size: 2vw;  
+   
+}
+

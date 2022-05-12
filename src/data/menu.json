@@ -1,0 +1,100 @@
+{
+    "productos": [
+      {
+        "id": "1",
+        "name": "Café americano",
+        "price": "5",
+        "type": "Desayuno"
+      },
+      {
+        "id": "2",
+        "name": "Café con leche",
+        "price": "7",
+        "type": "Desayuno"
+      },
+      {
+        "id": "3",
+        "name": "Sandwich de jamón y queso",
+        "price": "10",
+        "type": "Desayuno"
+      },
+      {
+        "id": "4",
+        "name": "Jugo de frutas natural",
+        "price": "7",
+        "type": "Desayuno"
+      },
+      {
+        "id": "5",
+        "name": "Hamburguesa de Carne",
+        "price": "10",
+        "type": "Principal"
+      },
+      {
+        "id": "6",
+        "name": "Hamburguesa de Pollo",
+        "price": "10",
+        "type": "Principal"
+      },
+      {
+        "id": "7",
+        "name": "Hamburguesa Veggie",
+        "price": "10",
+        "type": "Principal"
+      },
+      {
+        "id": "8",
+        "name": "Papas fritas",
+        "price": "5",
+        "type": "Principal"
+      },
+      {
+        "id": "9",
+        "name": "Aros de cebolla",
+        "price": "5",
+        "type": "Principal"
+      },
+      {
+        "id": "10",
+        "name": "queso",
+        "price": "1",
+        "type": "Principal"
+      },
+      {
+        "id": "11",
+        "name": "queso",
+        "price": "1",
+        "type": "Principal"
+      },
+      {
+        "id": "12",
+        "name": "huevo",
+        "price": "1",
+        "type": "Principal"
+      },
+      {
+        "id": "13",
+        "name": "Agua 500ml",
+        "price": "5",
+        "type": "Principal"
+      },
+      {
+        "id": "14",
+        "name": "Agua 750ml",
+        "price": "7",
+        "type": "Principal"
+      },
+      {
+        "id": "15",
+        "name": "Bebida/gaseosa 500ml",
+        "price": "7",
+        "type": "Principal"
+      },
+      {
+        "id": "16",
+        "name": "Bebida/gaseosa 750ml",
+        "price": "10",
+        "type": "Principal"
+      }
+    ]
+  }
