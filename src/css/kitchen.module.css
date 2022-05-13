@@ -1,0 +1,61 @@
+.Kitchen{
+    background-color:#FFFFD1 ;
+    background-size: cover;
+    height: 100vh;   
+
+    overflow: hidden;
+}
+
+.containerOrders {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+   
+    overflow-x: scroll;
+    padding: 2%;
+    gap: 2%;
+    */
+    margin-top: -4vw;
+    border: 2px solid #326A3D; 
+    width: 80vw;
+    height: 64vh;
+    padding: 2%;
+    display: grid;
+    gap: var(--size-3);
+    grid-auto-flow: column;
+    grid-auto-columns: 37%;
+    overflow-x:auto;
+
+  }
+.headerstyle{
+    display: flex;
+}
+
+.nombreApp{
+ 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4vW;
+    font-weight: bold;
+    color: #326A3D;
+    padding: 5% ;
+
+}
+.meseroContainer{
+    
+    padding: 5% ;
+    
+}
+
+
+.mesero{
+    background-color: #326A3D;
+    border: none;
+    width: 3.66vw;
+    height: 6.4vh;
+    font-size: 1.6vw;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}

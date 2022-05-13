@@ -1,0 +1,17 @@
+.cocinita {
+
+    background-color: white;
+}
+
+
+.boxContainer {
+    width: 26vw;
+    height: 40vh;
+    left: 67px;
+    top: 234px;
+    background: rgba(255, 255, 255, 0.33);
+    border: 5px solid #326A3D;
+    border-radius: 24px;
+    padding: 1%;
+    text-align: center;
+}
