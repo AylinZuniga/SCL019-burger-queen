@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Menu } from "./menu";
 import styles from "../css/order.module.css";
 import { db } from "../firebase.js"
-import { collection, addDoc} from "firebase/firestore";
+import { collection, addDoc } from "firebase/firestore";
 
 
 
@@ -15,7 +15,7 @@ export const Order = () => {
 
   //Función para añadir productos al carro y aumentar cantidad
   const addItem = (product) => {
-    console.log(cartProduct, product)
+    
     const exist = cartProduct.find((item) => item.id === product.id);
     if (exist) {
       setCartProduct(
@@ -70,7 +70,9 @@ export const Order = () => {
         date: new Date(),
         status: "Pendiente",
       });
-      setCartProduct([])
+      setCartProduct([]);
+      document.getElementById("nameClient").value = "";
+      document.getElementById("numberTable").value = "";
     } catch (error) {
       throw new Error(error);
     }
@@ -84,26 +86,33 @@ export const Order = () => {
 
 
     <main className={styles.generalContainer} >
+    
 
       <section className={styles.orderContainer}>
 
-        <input type="text" placeholder="Pedido de"
+
+        <div className={styles.inputContainer} >
+        <input  className={styles.inputName}  id="nameClient" type="text" placeholder="Pedido de:"
           onChange={(e) => { setClient(e.target.value) }} />
-          <input type="text" placeholder="Mesa"
+        <input className={styles.inputName}  id="numberTable" type="text" placeholder="Mesa:"
           onChange={(e) => { setTable(e.target.value) }} />
+        </div>
 
 
 
-        <div>{cartProduct.length === 0 && <div> Agrega productos al pedido </div>}</div>
+
+        <div>{cartProduct.length === 0 && <div className={styles.productCart} > Agrega productos al pedido </div>}</div>
         {cartProduct.map((item) => (
 
           <div key={item.id} className={styles.boxOrder}>
 
             <div className={styles.products}>
-              <p>{item.name}</p>
+              <p  >{item.name}</p>
               <p>${item.price} </p>
 
             </div>
+
+
             <div className={styles.buttons}>
               <button
                 className={styles.plusLess}

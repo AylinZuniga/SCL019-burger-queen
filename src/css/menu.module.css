@@ -2,8 +2,8 @@
     margin-left: 5%;
     padding:2% ;
     border-radius: 9px;
-    border: 4px solid #326A3D;
-    width: 50vw;
+    border: 5px solid #326A3D;
+    width: 60vw;
     height: 70vh;
     justify-content: center;
     text-align: center;
@@ -18,14 +18,14 @@
 }
 
 .buttonsMenu{
-    width: 25vw;
-    height: 7vh;
+    width: 20vw;
+    height: 6vh;
     border: none;
     background: #FB6240;
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
     border-radius: 9px;
     color: white;
-    font-family:'JetBrains Mono', monospace; 
+    /* font-family:'JetBrains Mono', monospace;  */
     font-weight: bold;
     font-size: 2vw;
 }
@@ -42,7 +42,7 @@
     padding-left: 4%;
 }
 .buttonsProducts{
-    width: 491px;
+    width: 450px;
     height: 48px;
     left: 106px;
     top: 435px;
@@ -51,8 +51,8 @@
     box-sizing: border-box;
     border-radius: 5px;
     color:white;
-    font-family:'JetBrains Mono', monospace; 
-    font-weight: bold;
+    /* font-family:'JetBrains Mono', monospace;  */
+    /* font-weight: bold; */
     font-size: 2vw;  
    
 }

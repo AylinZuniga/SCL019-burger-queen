@@ -19,8 +19,8 @@
     font-size: 1.1vw;
     border-radius: 5px;
     font-weight: bold;
-    font-family: "Baloo Bhai 2";
-    background-color: #f31730;
+    
+    background-color: #FB6240;
     cursor: pointer;
     border: none;
     color: white;
@@ -28,7 +28,7 @@
   }
   
   .pending:hover {
-    background: #c00017;
+    background: #FB6240;
     box-shadow: 0 4px 12px rgb(223, 167, 129);
     transition: all 0.2s ease;
   }
@@ -52,8 +52,7 @@
     font-size: 1.1vw;
     border-radius: 5px;
     font-weight: bold;
-    font-family: "Baloo Bhai 2";
-    background-color: #ed7586;
+    background-color: #FB6240;
     cursor: pointer;
     border: none;
     color: white;

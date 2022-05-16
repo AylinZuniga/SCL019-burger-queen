@@ -1,8 +1,7 @@
 .Kitchen{
-    background-color:#FFFFD1 ;
+    background-color: #FFFFE3 ;
     background-size: cover;
-    height: 100vh;   
-
+    height: 100vh;
     overflow: hidden;
 }
 
@@ -18,8 +17,8 @@
     gap: 2%;
     */
     margin-top: -4vw;
-    border: 2px solid #326A3D; 
-    width: 80vw;
+    /* border: 2px solid #326A3D;  */
+    width: 95vw;
     height: 64vh;
     padding: 2%;
     display: grid;
@@ -27,8 +26,58 @@
     grid-auto-flow: column;
     grid-auto-columns: 37%;
     overflow-x:auto;
+    padding: 5%;
+    overflow-y:hidden;
 
   }
+
+
+
+
+
+
+  .buttonContainer{
+    display: flex;
+    gap:25%;
+    margin-right: 3%;
+    margin-top: 1%;   
+}
+
+
+ .meseroVista{
+    display: flex;
+    padding: 5% 5% 5% 5%;
+    justify-content: space-between;
+}
+
+.homeIcon{
+    color:#326A3D ;
+    width: 30px;
+    
+}
+.kitchenIcon{
+    color:#FB6240 ;
+    width: 30px;
+    
+}
+.cocina{
+    border: 2px solid #FB6240 ;
+    background-color: transparent;
+    width: 4vw;
+    height: 6vh;
+    font-size: 1.6vw;
+    border-radius: 5px;   
+}
+
+.home{
+    border: 2px solid #326A3D ;
+    background-color: transparent;
+    width: 4vw;
+    height: 6vh;
+    font-size: 1.6vw;
+    border-radius: 5px;
+}
+
 .headerstyle{
     display: flex;
 }
@@ -36,17 +85,14 @@
 .nombreApp{
  
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 4vW;
+    font-size: 5vW;
     font-weight: bold;
     color: #326A3D;
-    padding: 5% ;
+    
+    
 
 }
-.meseroContainer{
-    
-    padding: 5% ;
-    
-}
+
 
 
 .mesero{

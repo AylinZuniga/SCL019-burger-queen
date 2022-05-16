@@ -36,33 +36,47 @@ export const KitchenOrder = () => {
 
 
             <section key={order.id} className={styles.boxContainer}>
-                <header>
-                    <h1>Pedido Mesa {order.table}</h1>
-
-                </header>
 
                 <main className={styles.text}>
-                    <p className={styles.clientName}>Nombre Cliente: {order.client}</p>
+
+                    <div className={styles.nombrePedido}>
+                        <p className={styles.clientName}>Cliente: {order.client}</p>
+                        <label>Mesa: {order.table}</label>
+
+                    </div>
+
+
                     <table className={styles.mainTable}>
-                        <thead>
-                            <tr className={styles.title}>
-                                <th>Productos</th>
-                                <th>Cantidad</th>
-                            </tr>
-                        </thead>
+
+                        <div className={styles.title}>
+
+                            <label>Productos</label>
+                            <label>Cantidad</label>
+                        </div>
+
+
                         {order.order.map((item) => (
-                            <tbody key={item.id} className={styles.table}>
-                                <tr className={styles.trName}>
-                                    <td>{item.name}</td>
-                                </tr>
-                                <tr className={styles.trQty}>
-                                    <td>{item.qty}</td>
-                                </tr>
-                            </tbody>
+                            <div key={item.id} className={styles.orderContainer}>
+
+                                <label className={styles.trName}>
+                                    {item.name}
+                                </label>
+
+                                <label className={styles.trQty}>
+                                    {item.qty}
+                                </label>
+                            </div>
                         ))}
                     </table>
                 </main>
-                <KitchenButtons id={order.id} status={order.status} />
+
+                <div className={styles.kitchenButtons}> 
+                    <KitchenButtons id={order.id} status={order.status} />
+                </div>
+
+                
+
+
 
 
             </section>
